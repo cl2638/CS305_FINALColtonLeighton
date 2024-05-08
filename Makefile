@@ -1,7 +1,7 @@
 CC = gcc
 
 main.out: main
-	./main | tee main.out
+	./main | tee main.o
 
 main: main.o get_student_id.o
 
